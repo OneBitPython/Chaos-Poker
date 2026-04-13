@@ -26,3 +26,7 @@ During the last two stages it uses a safer swap system where it swaps only if th
 The direction of the vote (YES vs NO) is proportional to how much the equity beats/trails the fair equity determined
 
 ### Tradeoffs
+- The fair equity function cannot clearly determine the stack sizes of the opponents as the change in chips during the swapping and voting changes are kept private.
+- The bot plays very passively on multitables due to the scaling of the equity function.
+- The betting does not consider the stack sizes of the opponents (due to the fact that they are not reliable) but it is something that you would consider in a general poker scenario.
+- The wager used in the voting is also very passive, large wagers are not placed.
